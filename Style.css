@@ -1,15 +1,15 @@
 /* Estilos generales */
 :root {
-    /*--primary-color: #1c1f33;
-    --secondary-color: #474a51;
-    --text-color: #000000;;
-    --background-color: #f5f5dc;
+    --primary-color: #1c1f33;
+    --secondary-color: #4b4b4b;
+    --text-color: #93754b;;
+    --background-color: #f5f5f5;
     --light-gray: #ecf0f1;*/
 }
 
 
 body {
-    font-family: "inter", sans-serif;
+    font-family: "Patrick hand";
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: lightgoldenrodyellow;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -78,16 +78,16 @@ body {
 }
 
 .profile-photo {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    border-radius: 55%;
     object-fit: cover;
     border: 5px solid var(--primary-color);
     margin-bottom: 1rem;
 }
 
 .profile-name {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin: 0.5rem 0;
     color: var(--secondary-color);
 }
@@ -104,12 +104,12 @@ body {
 }
 
 .list li {
-    background-color: white;
+    background-color: #d5e2fdf6;
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: left;
+    text-align: center;
 }
 
 .list-inline li {
@@ -166,7 +166,7 @@ body {
 .contact-form textarea {
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #8072bc;
     border-radius: 5px;
 }
 
@@ -182,7 +182,7 @@ body {
 }
 
 .submit-button:hover {
-    background-color: #2980b9;
+    background-color: #a82569;
 }
 
 /* Footer */
@@ -211,5 +211,4 @@ body {
     .list li {
         text-align: center;
     }
-
 }
